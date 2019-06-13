@@ -39,11 +39,8 @@ pipeline {
 			}
 				steps {
 					echo 'Running the integration test..'
-					hostname
-					date
-					pwd
-					ls -lrt
-					df -hT
+					`hostname`
+				
 				}
                                
 			}  }
